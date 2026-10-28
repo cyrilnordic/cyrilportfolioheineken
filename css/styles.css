@@ -126,7 +126,7 @@
   section.block { padding-block: 72px; }
   #projects.block { padding-top: 20px; }
   section.tint { background: linear-gradient(to bottom, var(--bg) 0%, var(--bg-tint) 18%, var(--bg-tint) 82%, var(--bg) 100%); }
-  .head { display: flex; align-items: end; justify-content: space-between; gap: 8px 16px; flex-wrap: wrap; margin-bottom: 14px; }
+  .head { display: flex; align-items: end; justify-content: space-between; gap: 8px 16px; flex-wrap: wrap; margin-bottom: 36px; }
   .head h2 { font-size: clamp(30px, 4.4vw, 48px); line-height: 1.02; font-weight: 800; letter-spacing: -.02em; color: var(--green); }
   :root[data-theme="dark"] .head h2 { color: #6fdc9b; }
   @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .head h2 { color: #6fdc9b; } }
