@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Digital webinar screen</title>
+  <desc id="desc">A warm editorial illustration of a laptop screen showing a webinar.</desc>
+  <rect width="640" height="480" fill="#f7f3eb"/>
+  <circle cx="525" cy="95" r="58" fill="#f0d4c8"/>
+  <circle cx="116" cy="389" r="78" fill="#e9dfd1"/>
+  <rect x="108" y="88" width="424" height="270" rx="22" fill="#20232a"/>
+  <rect x="130" y="110" width="380" height="226" rx="12" fill="#fffdf8"/>
+  <rect x="130" y="110" width="380" height="38" rx="12" fill="#c6533d"/>
+  <circle cx="153" cy="129" r="5" fill="#fffdf8"/>
+  <circle cx="171" cy="129" r="5" fill="#f0d4c8"/>
+  <circle cx="189" cy="129" r="5" fill="#f0d4c8"/>
+  <rect x="154" y="170" width="184" height="126" rx="12" fill="#e9dfd1"/>
+  <circle cx="246" cy="218" r="29" fill="#c6533d"/>
+  <path d="M235 218h22M246 207v22" stroke="#fffdf8" stroke-width="7" stroke-linecap="round"/>
+  <rect x="360" y="171" width="120" height="12" rx="6" fill="#20232a"/>
+  <rect x="360" y="196" width="92" height="9" rx="4.5" fill="#b9afa2"/>
+  <rect x="360" y="218" width="104" height="9" rx="4.5" fill="#b9afa2"/>
+  <rect x="360" y="258" width="74" height="18" rx="9" fill="#c6533d"/>
+  <path d="M77 363h486l-42 35H119z" fill="#20232a"/>
+  <rect x="243" y="379" width="154" height="7" rx="3.5" fill="#c6533d"/>
+</svg>
