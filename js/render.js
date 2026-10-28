@@ -28,7 +28,7 @@
     cards: function (s) {
       return head(s) + '<div class="cards">' + s.items.map(function (c) {
         return '<article class="card"><div class="ph"><img src="' + esc(c.image) + '" alt="' + esc(c.alt) + '" loading="lazy">' +
-          (c.badge ? '<span class="badge">' + esc(c.badge) + '</span>' : '') + '</div><div class="bd"><h3>' + esc(c.title) + '</h3><p>' + esc(c.text) + '</p>' +
+          '</div><div class="bd"><h3>' + (c.link ? '<a href="' + esc(c.link.href) + '">' + esc(c.title) + '</a>' : esc(c.title)) + '</h3><p>' + esc(c.text) + '</p>' +
           (c.link ? '<div class="acts">' + pill(c.link) + '</div>' : '') + '</div></article>';
       }).join('') + '</div>';
     },
@@ -72,7 +72,7 @@
     '<p class="eyebrow">' + esc(h.eyebrow) + '</p><h1>' + esc(h.name) + '</h1><p class="tag">' + esc(h.tagline) + '</p>' + summary +
     '<div class="finder" role="group" aria-label="At a glance">' + h.stats.map(function (st) { return '<div class="f"><span>' + esc(st.label) + '</span><strong>' + esc(st.value) + '</strong></div>'; }).join('') + pill(h.button) + '</div>' +
     '</div><div class="carousel" id="carousel" aria-roledescription="carousel" aria-label="Event photos">' +
-    h.photos.map(function (p, i) { return '<figure' + (i === 0 ? ' class="on"' : '') + '><img src="' + esc(p.src) + '" alt="' + esc(p.alt) + '"><figcaption>' + esc(p.caption) + '</figcaption></figure>'; }).join('') +
+    h.photos.map(function (p, i) { return '<figure' + (i === 0 ? ' class="on"' : '') + '><img src="' + esc(p.src) + '" alt="' + esc(p.alt) + '"></figure>'; }).join('') +
     '<button class="ctl prev" type="button" aria-label="Previous photo">&#8249;</button><button class="ctl next" type="button" aria-label="Next photo">&#8250;</button></div></div></section>';
 
   var body = S.sections.map(function (s) {

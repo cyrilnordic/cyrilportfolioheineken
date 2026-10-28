@@ -18,15 +18,15 @@ window.SITE = {
   cta: { label: 'Get in touch', href: 'https://www.linkedin.com/in/cyrilforot/' },
 
   hero: {
-    eyebrow: 'Portfolio · Event strategy',
+    eyebrow: 'Portfolio',
     name: 'Cyril Forot',
-    tagline: 'Event Manager · Strategy & Marketing',
-    summary: 'Event Manager with 8+ years in event marketing and 300+ events delivered across Europe. I take an event from the first idea to the last guest leaving, so that the people in the room can enjoy it while everything behind the scenes runs smoothly.',
-    summaryToUpdate: 'Rewrite this paragraph for the company and role you are applying to.',   // delete this line to remove the yellow box
+    tagline: 'Global Event Manager',
+    summary: 'Senior Event Manager with 8 years of experience and 300+ events delivered, from large-scale, international B2B and corporate events to brand experiences across 10 European markets, with budgets of up to €700k, always putting people at the heart of every event. Brings a client-focused mindset from the client brief to the post-event evaluation. Now ready to raise the bar at HEINEKEN, aligning your events with the EverGreen strategy and bringing innovative technology and creativity to the HEINEKEN Experience and other events. Moving to the Netherlands for new career opportunities.',
+    // To show the yellow "TO UPDATE" box again, add:  summaryToUpdate: 'your reminder',
     stats: [
       { label: 'Events', value: '300+' },
       { label: 'Markets', value: '10' },
-      { label: 'Annual budget', value: '€670K' }
+      { label: 'Budgets up to', value: '€700K' }
     ],
     button: { label: 'See projects', href: '#projects' },
     photos: [
@@ -41,17 +41,16 @@ window.SITE = {
     {
       id: 'projects', type: 'cards', nav: 'Experiences',
       title: 'Choose your experience',
-      intro: 'Nine kinds of events, from a 100 m² booth in Munich to a 6,000-person race in France.',
       items: [
-        { image: 'assets/images/smarter-e-booth.jpg', alt: 'Emaldo booth at The smarter E Europe', badge: 'Germany', title: 'The smarter E Europe', text: 'A large-scale trade show combining product launches, partner moments, executive speaking and coordinated on-site delivery.' },
-        { image: 'assets/images/trade-shows-team.jpg', alt: 'The Emaldo team on the booth', badge: 'Exhibitions & trade fairs', title: 'Trade Shows across Europe', text: 'From choosing the right exhibitions to delivering the booth experience and turning conversations into measurable opportunities.' },
-        { image: 'assets/images/speeches-overall.jpg', alt: 'Speech at The smarter E Europe', badge: 'Executive speakers', title: 'Speeches & Conferences', text: 'From securing speaking opportunities to preparing speakers and coordinating delivery on stage.' },
-        { image: 'assets/images/ceremonies.jpg', alt: 'Stars & Métiers award ceremony', badge: 'France / United Kingdom', title: 'Award ceremonies', text: 'Award programmes and submissions managed from candidate applications, jury coordination and strategic storytelling through to guest experience, sponsorship and live ceremony delivery.' },
-        { image: 'assets/images/launch-ci.jpg', alt: 'Product launch', badge: 'Czech Republic / Sweden / Germany', title: 'Product Launches', text: 'Product launches shaped through audience-focused storytelling, demonstrations, sales enablement, partner briefings and event delivery.' },
-        { image: 'assets/images/digital-webinar.svg', alt: 'Digital events', badge: 'Denmark / France', title: 'Digital Events & Webinars', text: 'Digital launches and webinars built around clear content, prepared speakers, reliable production and audience follow-up.' },
-        { image: 'assets/images/internal-events-dhl.jpg', alt: 'Internal team event', badge: 'Bringing colleagues together', title: 'Internal Events & Team Experiences', text: 'Internal events, workshops and team experiences delivered with thoughtful planning, supplier coordination and smooth on-site flow.' },
-        { image: 'assets/images/activations.jpg', alt: 'Brand activation', badge: 'France', title: 'Brand Activations', text: 'A nationwide shopper-marketing programme combining product demonstrations, direct consumer engagement and consistent in-store brand experiences.' },
-        { image: 'assets/images/race.jpg', alt: 'Obstacle race participants', badge: 'France', title: 'Mass Participation Event', text: 'A travelling obstacle-race series transforming open public spaces into safe, high-energy experiences for thousands of participants.' }
+        { image: 'assets/images/smarter-e-booth.jpg', alt: 'Emaldo booth at The smarter E Europe', badge: 'Germany', title: 'The smarter E Europe', text: 'A large-scale trade show combining product launches, partner moments, executive speaking and coordinated on-site delivery.', link: { label: 'Read the case', href: 'project.html#the-smarter-e-europe' } },
+        { image: 'assets/images/trade-shows-team.jpg', alt: 'The Emaldo team on the booth', badge: 'Exhibitions & trade fairs', title: 'Trade Shows across Europe', text: 'From choosing the right exhibitions to delivering the booth experience and turning conversations into measurable opportunities.', link: { label: 'Read the case', href: 'project.html#trade-shows-europe' } },
+        { image: 'assets/images/speeches-overall.jpg', alt: 'Speech at The smarter E Europe', badge: 'Executive speakers', title: 'Speeches & Conferences', text: 'From securing speaking opportunities to preparing speakers and coordinating delivery on stage.', link: { label: 'Read the case', href: 'project.html#speeches-conferences' } },
+        { image: 'assets/images/ceremonies.jpg', alt: 'Stars & Métiers award ceremony', badge: 'France / United Kingdom', title: 'Award ceremonies', text: 'Award programmes and submissions managed from candidate applications, jury coordination and strategic storytelling through to guest experience, sponsorship and live ceremony delivery.', link: { label: 'Read the case', href: 'project.html#award-submissions-ceremonies' } },
+        { image: 'assets/images/launch-ci.jpg', alt: 'Product launch', badge: 'Czech Republic / Sweden / Germany', title: 'Product Launches', text: 'Product launches shaped through audience-focused storytelling, demonstrations, sales enablement, partner briefings and event delivery.', link: { label: 'Read the case', href: 'project.html#product-launches' } },
+        { image: 'assets/images/digital-webinar.svg', alt: 'Digital events', badge: 'Denmark / France', title: 'Digital Events & Webinars', text: 'Digital launches and webinars built around clear content, prepared speakers, reliable production and audience follow-up.', link: { label: 'Read the case', href: 'project.html#digital-events-webinars' } },
+        { image: 'assets/images/internal-events-dhl.jpg', alt: 'Internal team event', badge: 'Bringing colleagues together', title: 'Internal Events & Team Experiences', text: 'Internal events, workshops and team experiences delivered with thoughtful planning, supplier coordination and smooth on-site flow.', link: { label: 'Read the case', href: 'project.html#internal-events' } },
+        { image: 'assets/images/activations.jpg', alt: 'Brand activation', badge: 'France', title: 'Brand Activations', text: 'A nationwide shopper-marketing programme combining product demonstrations, direct consumer engagement and consistent in-store brand experiences.', link: { label: 'Read the case', href: 'project.html#brand-activations' } },
+        { image: 'assets/images/race.jpg', alt: 'Obstacle race participants', badge: 'France', title: 'Mass Participation Event', text: 'A travelling obstacle-race series transforming open public spaces into safe, high-energy experiences for thousands of participants.', link: { label: 'Read the case', href: 'project.html#mass-participation-event' } }
         // Optional on any card: link: { label: 'Read the case', href: 'https://...' }
       ]
     },
@@ -105,7 +104,7 @@ window.SITE = {
 
   footer: {
     title: "Let's plan your next event",
-    subtitle: 'Event Manager · Strategy & Marketing',
+    subtitle: 'Global Event Manager',
     button: { label: 'LinkedIn', href: 'https://www.linkedin.com/in/cyrilforot/' }
   }
 };
